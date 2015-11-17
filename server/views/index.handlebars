@@ -1,0 +1,12 @@
+{{> menu }}
+
+<div id="messages">
+    {{# messages}}
+        {{> message }}
+    {{/messages}}
+</div>
+
+<form id="new-message">
+    <input id="message" class="form-control" required>
+    <button class="btn btn-primary">Send</button>
+</form>
